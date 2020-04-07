@@ -17,10 +17,21 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "Help | #{@base_title}"
     assert_response :success
   end
-
+  # <% provide(:title, "Contact") %>
+  # <h1>Contact</h1>
+  # <p>
+  #   Contact the Ruby on Rails Tutorial about the sample app at the
+  #   <a href="https://www.railstutorial.org/contact">contact page</a>.
+  # </p>
   test "should get about" do
     get static_pages_about_url
     assert_select "title", "About | #{@base_title}"
+    assert_response :success
+  end
+
+  test "should get contact" do
+    get static_pages_contact_url
+    assert_select "title" "Contact | #{@base_title}"
     assert_response :success
   end
 end
