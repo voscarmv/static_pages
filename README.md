@@ -2,10 +2,6 @@
 
 > Solution to the exercises from Chapter 4 and 4 in Hartl's book [*Ruby on Rails Tutorial*](https://www.railstutorial.org/), as per [The Odin Project *Let's Get Building* section](https://www.theodinproject.com/courses/ruby-on-rails/lessons/let-s-get-building)
 
-## Live Demo
-
-[Heroku live demo](https://damp-ravine-26412.herokuapp.com)
-
 ### Prerequisites
 
 Follow the [installation instructions](https://www.theodinproject.com/courses/web-development-101/lessons/installing-ruby) from The Odin Project.
