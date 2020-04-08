@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
+ruby "2.6.3"
+
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails',      '6.0.2.2', :github => 'rails/rails', :branch => '6-0-stable'
+gem 'rails',      '6.0.2.2'
 gem 'puma',       '3.12.1'
 gem 'sass-rails', '5.1.0'
 gem 'webpacker',  '4.0.7'
@@ -12,6 +14,8 @@ gem 'bootsnap',   '1.4.4', require: false
 group :development, :test do
   gem 'sqlite3', '1.4.1'
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rubocop'
+  gem 'rubocop-rails'
 end
 
 group :development do
@@ -28,8 +32,8 @@ group :test do
   gem 'rails-controller-testing', '1.0.4'
   gem 'minitest',                 '5.11.3'
   gem 'minitest-reporters',       '1.3.8'
-  gem 'guard',                    '2.15.0'
-  gem 'guard-minitest',           '2.4.6'
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
 group :production do
