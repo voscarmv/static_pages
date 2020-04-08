@@ -9,6 +9,7 @@ AllCops:
     - "node_modules/**/*"
     - "Gemfile"
     - ".stickler.yml"
+    - ".rubocop.yml"
 
   DisplayCopNames: true
 
