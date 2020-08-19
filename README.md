@@ -2,6 +2,8 @@
 
 > Solution to the exercises from Chapter 4 and 4 in Hartl's book [*Ruby on Rails Tutorial*](https://www.railstutorial.org/), as per [The Odin Project *Let's Get Building* section](https://www.theodinproject.com/courses/ruby-on-rails/lessons/let-s-get-building)
 
+![image](https://user-images.githubusercontent.com/2739245/90670796-55d05d80-e219-11ea-966d-22c256e0e884.png)
+
 ## Live Demo
 
 [Heroku live demo](https://stark-stream-59452.herokuapp.com/)
